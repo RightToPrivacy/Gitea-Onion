@@ -1,0 +1,22 @@
+# This config file in your /etc/nginx sites dir
+#
+# Also blocks connections outside the Tor Hidden Service.
+#
+# <righttoprivacy@tutanota.com> Nginx config file for Gitea-onion (Tor Hidden Service)
+# from http://gg6zxtreajiijztyy5g6bt5o6l3qu32nrg7eulyemlhxwwl6enk6ghad.onion/RightToPrivacy/Gitea-onion
+#
+# Blog: https://www.buymeacoffee.com/politictech/posts
+#
+
+server {
+         listen 80;
+         server_name YourOnionAddress.onion;    # Store your .onion address here (README for more)
+         location / {
+                proxy_pass http://127.0.0.1:3000;
+#                try_files $uri $uri/ =404;
+                #allow local
+                allow 127.0.0.1;
+                #Block 
+                deny all;
+         }
+}
