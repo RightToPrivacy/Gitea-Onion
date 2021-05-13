@@ -1,5 +1,7 @@
 #!/bin/bash
 #
+# Requires root/sudo + apt (to install tor- if you run another system install Tor first)
+#
 # Install Gitea as normal. Then run this install script to convert it into a Tor Hidden Service.
 # More updates coming to this later. File an issue/email if you notice problem. Thank you! :)
 #
@@ -19,9 +21,9 @@ echo "GITEA GIT SERVER INTO HIDDEN SERVICE SCRIPT"
 echo '============================================'
 echo ' '
 echo ' '
-echo 'Installing/Configuring Tor...'
+echo 'Installing/Configuring Tor (Requires apt)...'
 sleep 1
-sudo apt update && apt install tor -y
+apt update && apt install tor -y
 echo 'HiddenServiceDir /var/lib/tor/hidden_service/' >> $torconf
 echo 'HiddenServicePort 80 127.0.0.1:80' >> $torconf
 sleep 1
@@ -41,11 +43,11 @@ fi
 echo "iptables OK. Setting rules..."
 sleep 2
 
-sudo iptables -A INPUT -p tcp -s localhost --dport 3000 -j ACCEPT
-sudo iptables -A INPUT -p tcp -s --dport 3000 -j DROP
+iptables -A INPUT -p tcp -s localhost --dport 3000 -j ACCEPT
+iptables -A INPUT -p tcp -s --dport 3000 -j DROP
 
 echo 'To retain blocking (outside your onion address), install iptables-persistent package.'
-echo "To clear newly blocking rules either reboot or issue: sudo iptables --flush"
+echo "To clear outside onion block rules either reboot or issue: sudo iptables --flush"
 
 if [[ -f $oname ]] then
     echo 'Your New Gitea Onion (Tor Hidden Service): '
