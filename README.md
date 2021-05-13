@@ -1,10 +1,12 @@
-# Gitea Tor Hidden Service (for NGINX Gitea setup)
+# A Gitea Tor Hidden Service (NGINX+Gitea setup)
+#
+# This is NOT part of the Gitea Project- this is sharing a method for turning Gitea into a Tor Hidden Service.
+# (I have *no affiliation* with either project but wanted to share as standard hidden service method does not apply)
 
-Script/tutorial for setting up your own Gitea Onion. Gitea Onion is also a work in progress and more updates will come (Any issues, let me know and I will fix. Thanks.)
+All Gitea related credits goes to Gitea Project: https://gitea.io/en-us/
+Underlying Tor Hidden Service protocol aspects credits go to Tor Project (No affiliation): https://www.torproject.org
 
-Originally posted at free/open/anonymous Tor Hidden Service Gitea server [ same as setup for you ]:
-
-http://gg6zxtreajiijztyy5g6bt5o6l3qu32nrg7eulyemlhxwwl6enk6ghad.onion/RightToPrivacy/Gitea-Onion
+What is this? Script/tutorial/information needed to setup up Gitea as an Onion. 
 
 [A work in progress: notify on problems]
 
@@ -27,24 +29,8 @@ INSTRUCTIONS:
 
 6.) Edit your Gitea app.ini file to match your onion address/needs
 
-Any issues, please file issue. This is initial script, testing needed. Improvements will come.
+Any issues, let me know. 
 
-righttoprivacy[at]tutanota.com
-
-LINKS:
-
-BLOG POSTS: https://www.buymeacoffee.com/politictech/posts
-
-BACKUP BLOG: https://politictech.wordpress.com
-
-VIDEO CHANNEL MIRRORS:
-
-ODYSEE: https://odysee.com/@RTP
-
-PEERTUBE: https://tube.tchncs.de/accounts/rtp_tips/
-
-YOUTUBE: https://www.youtube.com/channel/UChVCEXzi39_YEpUQhqmEFrQ
-
-BITCHUTE: https://www.bitchute.com/channel/yourprivacytv
+*** I am NOT affiliated with Gitea- this is just a sharing of methods I am using to utilize Gitea in a Tor Hidden Service setup ***
 
 Thanks to Gitea devs for wonderful git platform software. Important to give back to open software projects by sharing and contributing wherever we can.
