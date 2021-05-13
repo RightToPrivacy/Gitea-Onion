@@ -1,11 +1,9 @@
 # This config file in your /etc/nginx sites dir
 #
-# Also blocks connections outside the Tor Hidden Service.
+# Part of this particular file sourced from Gitea documentation.
+# Gitea Project (NO AFFILIATION): https://gitea.io/en-us/
 #
-# <righttoprivacy@tutanota.com> Nginx config file for Gitea-onion (Tor Hidden Service)
-# from http://gg6zxtreajiijztyy5g6bt5o6l3qu32nrg7eulyemlhxwwl6enk6ghad.onion/RightToPrivacy/Gitea-onion
-#
-# Blog: https://www.buymeacoffee.com/politictech/posts
+# 
 #
 
 server {
