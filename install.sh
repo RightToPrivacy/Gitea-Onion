@@ -5,8 +5,8 @@
 #
 # Contact if problem w/shell script and I will fix: <righttoprivacy[at]tutanota.com> (NO AFFILIATION WITH GITEA)
 #
-# If you want to download Gitea or read their documentation see https://gitea.io/en-us/ 
-# (I have no affiliation simply sharing something- you need proxy pass through to setup Hidden Service)
+# If you want to download the excellent Gitea Project, or read their documentation see: https://gitea.io/en-us/ 
+# (I have NO AFFILIATION) simply sharing something- you need proxy pass through to setup Hidden Service)
 #
 
 # VARIABLES
