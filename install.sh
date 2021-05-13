@@ -3,12 +3,10 @@
 # Install Gitea as normal. Then run this install script to convert it into a Tor Hidden Service.
 # More updates coming to this later. File an issue/email if you notice problem. Thank you! :)
 #
-# Contact: <righttoprivacy[at]tutanota.com>
+# Contact if problem w/shell script and I will fix: <righttoprivacy[at]tutanota.com> (NO AFFILIATION WITH GITEA)
 #
-# Site/Blog/Videos: https://www.buymeacoffee.com/politictech/posts
-#
-# My Gitea Onion [free/anonymous :) ]: http://gg6zxtreajiijztyy5g6bt5o6l3qu32nrg7eulyemlhxwwl6enk6ghad.onion/RightToPrivacy
-#
+# If you want to download Gitea or read their documentation see https://gitea.io/en-us/ 
+# (I have no affiliation simply sharing something- you need proxy pass through to setup Hidden Service)
 #
 
 # VARIABLES
@@ -18,8 +16,6 @@ oname='/var/lib/tor/hidden_service/hostname'
 
 echo "GITEA GIT SERVER INTO HIDDEN SERVICE SCRIPT"
 echo '============================================'
-echo ' '
-echo 'Contact: <righttoprivacy[at]tutanota.com>'
 echo ' '
 echo ' '
 echo 'Installing/Configuring Tor...'
