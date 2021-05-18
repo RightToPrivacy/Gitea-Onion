@@ -3,8 +3,28 @@
 # This is NOT part of the Gitea Project- this is sharing a method for turning Gitea into a Tor Hidden Service.
 # (I have *no affiliation* with either project but wanted to share as standard hidden service method does not apply)
 
-All Gitea related credits goes to Gitea Project: https://gitea.io/en-us/
+-----------------------------------------------
+
+CONTACT/LINKS:
+
+MY BLOG/DONATE: https://www.buymeacoffee.com/politictech/posts (updated frequently and most posts are public)
+BACKUP (not as updated as above): https://politictech.wordpress.com
+
+CASHAPP: $HumanRightsTech
+
+MY VIDEO CHANNELS:
+ODYSEE: https://www.odysee.com/@RTP (if you do not have an odysee account consider using my invite link to help me out: https://odysee.com/$/invite/@RTP:9 )
+YOUTUBE: https://www.youtube.com/channel/UChVCEXzi39_YEpUQhqmEFrQ
+PEERTUBE: https://tube.tchncs.de/accounts/rtp_tips/video-channels
+
+------------------------------------------------
+
+UNDERLYING SOFTWARE LINKS (not affiliated but appreciative of):
+
+Gitea software by (unaffiliated) Gitea Project: https://gitea.io/en-us/
 Underlying Tor Hidden Service protocol aspects credits go to Tor Project (No affiliation): https://www.torproject.org
+
+------------------------------------------------
 
 What is this? Script/tutorial/information needed to setup up Gitea as an Onion. 
 
@@ -38,10 +58,14 @@ You may choose to add the following to app.ini configuration (may change in upda
     PROXY_URL:http://127.0.0.1:9150
     PROXY_HOSTS:**
 
-(the above for proxying webhook through Tor)
+(use above for proxying webhooks through Tor)
 
 Any issues, let me know. 
 
 *** I am NOT affiliated with Gitea- this is just a sharing of script I wrote (assisted by Gitea/Tor documentations) to setup Gitea in a Tor Hidden Service setup ***
 
-Thanks to Gitea devs for wonderful git platform software. And big Thank You to Tor Project for their dedication to privacy to all. Important to give back to open software projects by sharing and contributing wherever we can.
+Thanks to Gitea devs for wonderful git platform software. 
+
+And big Thank You to Tor Project for their dedication to privacy/Human Rights to all. 
+
+Important to give back to open software projects by sharing and contributing wherever we can.
