@@ -7,7 +7,7 @@
 
 CONTACT/LINKS:
 
-MY BLOG/DONATE: https://www.buymeacoffee.com/politictech/posts (updated frequently and most posts are public)
+MY BLOG: https://www.buymeacoffee.com/politictech/posts (updated frequently and most posts are public)
 BACKUP (not as updated as above): https://politictech.wordpress.com
 
 CASHAPP: $HumanRightsTech
