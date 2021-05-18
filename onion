@@ -1,0 +1,15 @@
+#!/bin/bash
+#
+# simply moved then chmod +x /usr/bin/onion 
+#
+# <righttoprivacy@tutanota.com>
+# https://www.github.com/RightToPrivacy
+# https://www.buymeacoffee.com/politictech
+# Cashapp: $HumanRightsTech
+#
+echo ' '
+echo "CURRENT ONION: "     
+echo '============='
+echo ' '
+sudo cat /var/lib/tor/hidden_service/hostname
+echo ' '
