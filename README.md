@@ -16,8 +16,11 @@ BACKUP BLOG (not as updated as above): https://politictech.wordpress.com
 CASHAPP: $HumanRightsTech
 
 VIDEO CHANNELS:
+
 ODYSEE: https://www.odysee.com/@RTP (if you do not have an odysee account consider using my invite link to help me out: https://odysee.com/$/invite/@RTP:9 )
+
 YOUTUBE: https://www.youtube.com/channel/UChVCEXzi39_YEpUQhqmEFrQ
+
 PEERTUBE: https://tube.tchncs.de/accounts/rtp_tips/video-channels
 
 ------------------------------------------------
@@ -25,6 +28,7 @@ PEERTUBE: https://tube.tchncs.de/accounts/rtp_tips/video-channels
 UNDERLYING SOFTWARE LINKS (not affiliated but appreciative of):
 
 Gitea software by (unaffiliated) Gitea Project: https://gitea.io/en-us/
+
 Underlying Tor Hidden Service protocol aspects credits go to Tor Project (No affiliation): https://www.torproject.org
 
 ------------------------------------------------
@@ -65,7 +69,7 @@ You may choose to add the following to app.ini configuration (may change in upda
 
 Any issues, let me know. 
 
-*** I am NOT affiliated with Gitea- this is just a sharing of script I wrote (assisted by Gitea/Tor documentations) to setup Gitea in a Tor Hidden Service setup ***
+*** NOT affiliated with Gitea- this is sharing of script I wrote (assisted by Gitea/Tor documentations) to setup Gitea in a Tor Hidden Service setup ***
 
 Thanks to Gitea devs for wonderful git platform software. 
 
