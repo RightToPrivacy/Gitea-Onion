@@ -17,7 +17,7 @@ PREREQUISITE/REQUIREMENTS:
 
 INSTRUCTIONS:
 
-1.) Clone the repository or extract its contents into a directory.
+1.) Clone this repository or extract its contents into a directory.
 
 2.) cd into the directory.
 
@@ -29,8 +29,19 @@ INSTRUCTIONS:
 
 6.) Edit your Gitea app.ini file to match your onion address/needs
 
+You may choose to add the following to app.ini configuration:
+
+[mirror]
+DISABLE_MIRRORS = true
+
+[webhook]
+PROXY_URL:http://127.0.0.1:9150
+PROXY_HOSTS:**
+
+(the above for proxying webhook through Tor)
+
 Any issues, let me know. 
 
-*** I am NOT affiliated with Gitea- this is just a sharing of methods I am using to utilize Gitea in a Tor Hidden Service setup ***
+*** I am NOT affiliated with Gitea- this is just a sharing of script I wrote (assisted by Gitea/Tor documentations) to setup Gitea in a Tor Hidden Service setup ***
 
-Thanks to Gitea devs for wonderful git platform software. Important to give back to open software projects by sharing and contributing wherever we can.
+Thanks to Gitea devs for wonderful git platform software. And big Thank You to Tor Project for their dedication to privacy to all. Important to give back to open software projects by sharing and contributing wherever we can.
