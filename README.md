@@ -29,14 +29,14 @@ INSTRUCTIONS:
 
 6.) Edit your Gitea app.ini file to match your onion address/needs
 
-You may choose to add the following to app.ini configuration:
+You may choose to add the following to app.ini configuration (may change in updates):
 
-[mirror]
-DISABLE_MIRRORS = true
+    [mirror]
+    DISABLE_MIRRORS = true
 
-[webhook]
-PROXY_URL:http://127.0.0.1:9150
-PROXY_HOSTS:**
+    [webhook]
+    PROXY_URL:http://127.0.0.1:9150
+    PROXY_HOSTS:**
 
 (the above for proxying webhook through Tor)
 
