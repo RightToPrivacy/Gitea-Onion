@@ -30,7 +30,10 @@ sleep 1
 systemctl restart tor
 cp default $nginxconf
 echo ' '
-echo ' '
+
+# Setup 'onion' command (checks/prints current onion/hidden service address)
+cp onion /usr/bin/onion
+chmod +x /usr/bin/onion
 
 echo "Checking for iptables..."
 {
@@ -61,3 +64,5 @@ if [[ -f $oname ]] then
 else
     echo "Onion hostname file does not exist. Check your setup."
 fi
+
+
