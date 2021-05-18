@@ -1,7 +1,7 @@
 # A Gitea Tor Hidden Service (NGINX+Gitea setup)
 #
-# This is NOT part of the Gitea Project- this is sharing a method I've used for turning Gitea into a Tor Hidden Service.
-# (I have *no affiliation* with either project but wanted to share as standard hidden service method does not apply)
+This is NOT part of the Gitea Project itself- this is sharing a method I've used to turn Gitea into a Tor Hidden Service.
+(I have *no affiliation* with either project but wanted to share as standard hidden service method does not apply)
 
 -----------------------------------------------
 
@@ -10,7 +10,8 @@ CONTACT/LINKS:
 GITEA ONION: http://gg6zxtreajiijztyy5g6bt5o6l3qu32nrg7eulyemlhxwwl6enk6ghad.onion
 
 BLOG: https://www.buymeacoffee.com/politictech/posts (updated frequently and most posts are public for all)
-BACKUP (not as updated as above): https://politictech.wordpress.com
+
+BACKUP BLOG (not as updated as above): https://politictech.wordpress.com
 
 CASHAPP: $HumanRightsTech
 
