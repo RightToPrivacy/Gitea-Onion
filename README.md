@@ -7,21 +7,21 @@ This is NOT part of the Gitea Project itself- this is sharing a method I've used
 
 CONTACT/LINKS:
 
-GITEA ONION: http://gg6zxtreajiijztyy5g6bt5o6l3qu32nrg7eulyemlhxwwl6enk6ghad.onion
+Gitea Onion: http://gg6zxtreajiijztyy5g6bt5o6l3qu32nrg7eulyemlhxwwl6enk6ghad.onion
 
-BLOG: https://www.buymeacoffee.com/politictech/posts (updated frequently and most posts are public for all)
+Blog/Extras: https://www.buymeacoffee.com/politictech/posts (updated frequently and most posts are public for all)
 
-BACKUP BLOG (not as updated as above): https://politictech.wordpress.com
+Backup Blog (not as updated as above): https://politictech.wordpress.com
 
-CASHAPP: $HumanRightsTech
+Cashapp: $HumanRightsTech
 
 VIDEO CHANNELS:
 
-ODYSEE: https://www.odysee.com/@RTP (if you do not have an odysee account consider using my invite link to help me out: https://odysee.com/$/invite/@RTP:9 )
+Odysee: https://www.odysee.com/@RTP (if you do not have an odysee account consider using my invite link to help me out: https://odysee.com/$/invite/@RTP:9 )
 
-YOUTUBE: https://www.youtube.com/channel/UChVCEXzi39_YEpUQhqmEFrQ
+Youtube: https://www.youtube.com/channel/UChVCEXzi39_YEpUQhqmEFrQ
 
-PEERTUBE: https://tube.tchncs.de/accounts/rtp_tips/video-channels
+Peertube: https://tube.tchncs.de/accounts/rtp_tips/video-channels
 
 ------------------------------------------------
 
